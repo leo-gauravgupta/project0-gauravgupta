@@ -49,7 +49,7 @@ Project Requirements status:
 --Completed
 
 #4) Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
---Completed
+--Completed (included (i) id, (ii) class, (iii) selection, (iv) ::before, (v) ::after
 
 #5) Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 --Completed
@@ -60,8 +60,5 @@ Project Requirements status:
 #7) Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 --Completed
 
-
-Thanks and Regards,
+Thank you,
 Gaurav Gupta
-leo.gauravgupta@gmail.com
-813-573-2976
