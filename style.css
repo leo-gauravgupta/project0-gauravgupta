@@ -1,0 +1,82 @@
+div {
+      font-family: Arial, sans-serif;
+      font-size: 18px; }
+p {
+      font-family: Arial, sans-serif;
+      color: black; }
+h1 {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      text-align: center; }
+img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+table, th, td {
+      font-family: Arial, sans-serif;
+      white-space: normal;
+      border-spacing: 10px;
+}
+table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      text-align: left;
+      width: 30%;
+}
+th, td {
+      border: 1px solid black;
+      padding: 2px;
+      text-align: left;
+}
+th {
+      background-color: lightgrey;
+}
+
+@media screen {
+                body {
+                        color: black;
+                      }
+              }
+@media print {
+                body {
+                        color: teal;
+                      }
+            }
+/*
+p::selection, li::selection, td::selection {
+                              color: red;
+                              background-color: yellow;
+                            }
+*/
+.boldunder {
+              font-weight: bold;
+              text-decoration: underline;
+  }
+
+.italics {
+              color: grey;
+              font-style: italic;
+          }
+#content {
+        font-size: 16px;
+      }
+a::before {
+            content: "Click here to know more about ";
+          }
+a::after {
+            content: "!";
+          }
+.container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+.container > div {
+      background-color: lightblue;
+      font-size: 16px;
+      margin: 5px;
+      padding: 5px;
+      width: 150px;
+      align-items: flex-start;
+    }

@@ -1,0 +1,16 @@
+%message {
+  color: red;
+  background-color: yellow;
+}
+
+p::selection, {
+                @extend %message;
+              }
+
+li::selection, {
+                @extend %message;
+              }
+
+td::selection {
+              @extend %message;
+              }

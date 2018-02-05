@@ -1,0 +1,5 @@
+p::selection, li::selection, td::selection {
+  color: red;
+  background-color: yellow; }
+
+/*# sourceMappingURL=inheritance.css.map */
